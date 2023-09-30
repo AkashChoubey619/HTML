@@ -1,0 +1,17 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <p>HTML iframe tag</p>
+    <!-- The ” iframe ” tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders -->
+    <iframe
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+        style=" height:300px; width:350px;" title="Iframe Example"></iframe>
+        <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+</body>
+
+</html>
