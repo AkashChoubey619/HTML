@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+        <h1>Form</h1>
+        <br><br><br>
+    <form method="post">
+        <label for="name">Name </label>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="gender">Gender </label><br>
+        <input type="radio" name="gender" id="gender" required>M
+        <input type="radio" name="gender" id="gender" required>F <br>
+
+        <label for="laptop">Choose your laptop brand </label>
+        <select id="laptop" >
+            <option value="lenovo">Lenovo</option>
+            <option value="hp">Hp</option>
+            <option value="apple">Apple</option>
+            <option value="dell">Dell</option>
+        </select><br>
+        <label for="age">Age </label>
+        <input type="number" name="age" id="age" size="02" required><br>
+
+        <label for="portfolio">Portfolio </label>
+        <input type="url" name="portfolio" id="portfolio"  required><br>
+
+        <label for="dob">DOB </label>
+        <input type="date" name="dob" id="dob"  required><br>
+
+        
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password"  required><br>
+            <label for="msg">Details </label>
+        <textarea id="msg" name="welcomeMessage" rows="3"
+                  cols="40">
+              Additional Details
+          </textarea>
+          <br>
+        <button type="submit">Submit</button>
+    </form>
+</center>
+</body>
+</html>
